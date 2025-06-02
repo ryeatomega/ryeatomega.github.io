@@ -1,3 +1,32 @@
-.main-div {
-  font-size: 20px;
+body {
+    background-color: rgba(192,168,1, 0.3);
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+#dict-text {
+    color: rgba(0,0,0, 0.3);
+}
+
+#dict-corny-text {
+    color: rgba(0,0,0, 0.6);
+    font-size:0.5em;
+}
+
+#greet-text {
+    font-size: 5em;
+    font-family: serif;
+}
+
+#name-introduction {
+    font-size: 2em;
+}
+
+#main-paraph-text {
+    font-size: 20px;
+    font-family: sans-serif;
 }
