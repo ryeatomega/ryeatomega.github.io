@@ -35,12 +35,8 @@ body {
 }
 
 .fancy-gradient {
-    background-clip: text;
-    color: transparent;
-}
-
-.fancy-gradient {
-    background: url("./fire.mp4") no-repeat center / cover;
+    background: url("./fire.gif");
+    background-position: 25% 75%;
     background-clip: text;
     color: transparent;
 }
