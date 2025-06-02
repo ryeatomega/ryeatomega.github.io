@@ -40,27 +40,7 @@ body {
 }
 
 .fancy-gradient {
-    background: linear-gradient(to top, yellow, red);
+    background: url("./fire.mp4") no-repeat center / cover;
     background-clip: text;
     color: transparent;
-}
-.fancy-gradient:hover {
-    background-clip: text;
-    color: transparent;
-    animation-name : gradient-anim;
-    animation-duration: 1s;
-}
-
-
-@keyframes gradient-anim {
-    from {
-	background: linear-gradient(to top, yellow, red);
-	background-clip: text;
-        color: transparent;
-    }
-    to {
-	background: linear-gradient(to top, red, yellow);
-	background-clip: text;
-        color: transparent;
-    }
 }
