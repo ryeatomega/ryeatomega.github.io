@@ -4,10 +4,16 @@ body {
   font-family: "Playfair Display", serif;
   background-color: rgba(192, 168, 1, 0.3);
   font-size: 1em;
-  display: flex;
+}
+
+#introduction-box {
+  display: grid;
   position: absolute;
   top: 45%;
   left: 45%;
+}
+
+#main-paraph-text {
 }
 
 #dict-text {
@@ -25,13 +31,6 @@ body {
 
 #name-introduction {
   font-size: 2em;
-}
-
-#main-paraph-text {
-  position: absolute;
-  top: 52%;
-  left: 45%;
-  font-size: 20px;
 }
 
 .fancy-gradient {
