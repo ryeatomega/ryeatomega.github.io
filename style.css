@@ -1,28 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 
 body {
   font-family: "Playfair Display", serif;
+  color: rgb(54, 52, 43);
   background-color: rgba(192, 168, 1, 0.3);
   font-size: 1em;
 }
 
+#links {
+  font-family: "Space Mono", monospace;
+  width: 101vw;
+  overflow: hidden;
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  a:link {
+    color: rgb(37, 36, 46);
+  } /* Unvisited link */
+  a:visited {
+    color: rgba(14, 11, 54, 0.1);
+  } /* Visited link */
+  a:hover {
+    color: rgba(14, 11, 54, 0.1);
+  } /* Mouse over link */
+  a:active {
+    color: maroon;
+  } /* Active link */
+}
+
+#links > marquee > ul {
+  list-style-position: outside;
+  list-style: none;
+}
+#links > marquee > ul > li > span:nth-child(2) {
+  margin-right: 0.25em;
+}
+
 #introduction-box {
-  display: grid;
+  width: 100vw;
   position: absolute;
   top: 45%;
   left: 45%;
 }
 
-#main-paraph-text {
-}
-
-#dict-text {
-  color: rgba(0, 0, 0, 0.3);
-}
-
-#dict-corny-text {
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 0.5em;
+#text-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
 }
 
 #greet-text {
@@ -31,6 +56,20 @@ body {
 
 #name-introduction {
   font-size: 2em;
+}
+
+#dict-text {
+  color: rgba(54, 52, 43, 0.3);
+}
+
+#dict-corny-text {
+  color: rgba(54, 52, 43, 0.6);
+  font-size: 0.5em;
+}
+
+#main-paraph-text {
+  margin-top: 45px;
+  margin-left: 10px;
 }
 
 .fancy-gradient {
